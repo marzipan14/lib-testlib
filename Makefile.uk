@@ -1,0 +1,5 @@
+$(eval $(call addlib_s,libtestlib,$(CONFIG_LIBTESTLIB)))
+
+LIBTESTLIB_SRCS-y += $(LIBTESTLIB_BASE)/testlib.c
+
+CINCLUDES-$(CONFIG_LIBTESTLIB) += -I$(LIBTESTLIB_BASE)/include

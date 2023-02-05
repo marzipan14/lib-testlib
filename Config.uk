@@ -1,0 +1,3 @@
+config LIBTESTLIB
+	bool "testlib: Library demonstrating CFI enforcement in FlexOS"
+	default y
